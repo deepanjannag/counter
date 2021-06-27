@@ -23,3 +23,35 @@ function changeCounter() {
     // #endregion
 }
 
+
+
+
+
+
+//A simpler approach
+
+/*
+let counter = 0;
+
+document.querySelector('.prevBtn').addEventListener('click', () => changeNumber(-1));
+document.querySelector('.nextBtn').addEventListener('click', () => changeNumber(1));
+
+
+function changeNumber(change) {
+
+    counter += change;
+    document.querySelector('#counter').innerText = counter;
+
+    // #region color
+    if (counter < 0)
+        document.querySelector('#counter').style.color = 'red';
+    if (counter > 0)
+        document.querySelector('#counter').style.color = 'green';
+    if (counter == 0)
+        document.querySelector('#counter').style.color = 'black';
+    // #endregion
+}
+
+
+*/
+
