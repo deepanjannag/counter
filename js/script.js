@@ -24,10 +24,6 @@ function changeCounter() {
 }
 
 
-
-
-
-
 //A simpler approach
 
 /*
