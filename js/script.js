@@ -9,7 +9,7 @@ function changeCounter() {
     if (this.classList.contains('prevBtn'))
         count--;
     if (this.classList.contains('nextBtn'))
-        count++;
+        count = count+1;
 
     document.querySelector('#counter').innerText = count;
 
